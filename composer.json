@@ -1,0 +1,20 @@
+{
+    "name": "dongl/sensitive-word-filter",
+    "keywords": ["php", "sensitive-word-filter", "dongl"],
+    "authors": [
+        {
+            "name": "dongl",
+            "email": "827838349@qq.com"
+        }
+    ],
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/DonglingXu/sensitive-word-filter",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "dongl\\sensitiveWordFilter\\": "./src"
+        }
+    }
+}
