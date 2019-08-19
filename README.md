@@ -2,6 +2,6 @@
 
 use dongl\sensitiveWordFilter\service\Sensitive;
 
-$testWords = '996是sb';
+$testWords = '大sb';
 $sensitive = new Sensitive();
-var_dump($sensitive->filter($testWords));die;
+var_dump($sensitive->filter($testWords));
